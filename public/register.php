@@ -3,6 +3,10 @@ require __DIR__ . '/../src/bootstrap.php';
 require __DIR__ . '/../src/register.php';
 ?>
 
+<?php
+error_reporting(0);
+?>
+
 <?php view('header', ['title' => 'Register']) ?>
 
 
